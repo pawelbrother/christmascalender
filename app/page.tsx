@@ -15,8 +15,7 @@ export default function Home() {
 
   const [showBrus, setShowBrus] = useState(false);
 
-  // const currentDate = new Date().toISOString().split('T')[0]; // Get current date in 'YYYY-MM-DD' format
-  const currentDate = 11;
+  const currentDate = new Date().getDate();
   const imageSrc = `/${currentDate}.png`;
 
   return (
